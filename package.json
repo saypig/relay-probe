@@ -1,0 +1,22 @@
+{
+  "name": "relay-probe",
+  "version": "0.1.0",
+  "description": "A lightweight local tool for probing model relay endpoints.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test server.test.js"
+  },
+  "keywords": [
+    "llm",
+    "model-relay",
+    "openai",
+    "anthropic",
+    "tester"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
